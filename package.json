@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "dev:prepare": "unbuild --stub",
-    "prepare": "unbuild",
+    "postinstall": "unbuild",
     "build": "unbuild",
     "test": "vitest dev",
     "test:integration": "jest",
